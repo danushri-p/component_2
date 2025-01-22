@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 
-import Productcard from './components/productcard.jsx';
+import Productcard from "./components/cart/productcard.jsx";
 
 function App() {
   const cards = Array.from({ length: 10 });
